@@ -1,0 +1,9 @@
+<!--pages/user/user.wxml-->
+<view class='big'>
+<view class='btn'>
+<button plain='true' bindtap='doing'>等待处理</button>
+</view>
+<view class='btn'>
+<button plain='true' bindtap='done'>速速来取</button>
+</view>
+</view>

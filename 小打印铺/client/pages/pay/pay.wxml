@@ -1,0 +1,6 @@
+<!--pages/pay/pay.wxml-->
+<view>
+<button>总价合计{{total}}元</button>
+<button bindtap='alipay'>支付宝</button>
+<button bindtap='weixin'>微信</button>
+</view>

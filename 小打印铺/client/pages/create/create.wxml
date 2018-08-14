@@ -1,0 +1,20 @@
+<!--pages/create/create.wxml-->
+<view class='big'>
+<view class='selection'>
+  <text>打印内容</text>
+  <picker mode='selector' class='picker' range='{{option}}' value='{{index}}' bindchange='selection_change'>
+  <text class='text'>{{option[index]}}</text>
+  </picker>
+  <button class='choose' bindtap='more'>其他</button>
+</view>
+<canvas style="width: 500px; height: 250px;" canvas-id="addme" hidden='{{hidden}}'></canvas>
+<view class='selection'>
+<text>需要打印</text>
+<input class='in_small' type='number' placeholder=' ' bindinput='num'></input>
+<text class='text'>份</text>
+</view>
+
+<view class='btn'>
+<button bindtap='bingo' plain='true'>完成</button>
+</view>
+</view>

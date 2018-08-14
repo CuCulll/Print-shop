@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/create/create",
+    "pages/user/user",
+    "pages/doing/doing",
+    "pages/done/done",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "backgroundColor": "#FAFAD2",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FAFAD2",
+    "navigationBarTitleText": "ヾ(◍°∇°◍)ﾉﾞ",
+    "navigationBarTextStyle": "black"
+  }
+}

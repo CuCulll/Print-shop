@@ -1,0 +1,29 @@
+/* pages/user/user.wxss */
+page {
+  background-color: #FAFAD2;
+}
+
+.big {
+  border-top-style: solid;
+  border-top-color: #000000;
+  border-top-width: 1px;
+}
+
+.selection {
+  height: 50px;
+  margin-top: 50px;
+  display: flex;
+  background-color: #EEE8AA; 
+  border-width: 1px;
+  border-bottom-color: #000000;
+  border-top-color: #000000;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+  border-top-style: solid;
+}
+
+.btn {
+  margin-top: 50px;
+  background-color: #EEE8AA;
+}
